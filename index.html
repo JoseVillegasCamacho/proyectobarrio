@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barrio San Rafael - Concepción de San Rafael de Heredia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo Barrio San Rafael" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#noticias">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-section d-flex align-items-center">
+      <div class="container text-white">
+        <h1 class="display-4">Bienvenidos a Barrio San Rafael</h1>
+        <p class="lead">
+          Una comunidad vibrante en el corazón de Concepción de San Rafael de
+          Heredia
+        </p>
+      </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Nuestros Servicios</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Clases de Fútbol"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clases de Fútbol</h5>
+                <p class="card-text">
+                  Aprende y mejora tus habilidades futbolísticas con nuestros
+                  entrenadores profesionales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Talleres de Arte"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Talleres de Arte</h5>
+                <p class="card-text">
+                  Descubre tu lado artístico en nuestros talleres de pintura,
+                  escultura y más.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Clases de Cocina"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clases de Cocina</h5>
+                <p class="card-text">
+                  Aprende a preparar deliciosos platillos con nuestros chefs
+                  expertos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section id="galeria" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Galería</h2>
+        <div
+          id="carouselGaleria"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/placeholder.jpg"
+                class="d-block w-100"
+                alt="Imagen 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/placeholder.jpg"
+                class="d-block w-100"
+                alt="Imagen 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/placeholder.jpg"
+                class="d-block w-100"
+                alt="Imagen 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselGaleria"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselGaleria"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="noticias" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Noticias y Eventos</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Noticia 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Feria Comunitaria este fin de semana</h5>
+                <p class="card-text">
+                  No te pierdas nuestra feria anual con comida, juegos y música
+                  en vivo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Noticia 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nuevo parque infantil inaugurado</h5>
+                <p class="card-text">
+                  Celebramos la apertura de un moderno parque para nuestros
+                  niños.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="img/placeholder.jpg"
+                class="card-img-top"
+                alt="Noticia 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Taller de reciclaje gratuito</h5>
+                <p class="card-text">
+                  Aprende a reciclar y cuidar el medio ambiente en nuestro
+                  próximo taller.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca-de" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Acerca de Barrio San Rafael</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Barrio San Rafael es una comunidad vibrante y acogedora ubicada en
+              el corazón de Concepción de San Rafael de Heredia. Fundada en
+              1950, nuestra comunidad ha crecido y evolucionado, manteniendo
+              siempre un fuerte sentido de unidad y compromiso con el bienestar
+              de todos sus habitantes.
+            </p>
+            <p>
+              A lo largo de los años, hemos desarrollado una amplia gama de
+              servicios y actividades para enriquecer la vida de nuestros
+              residentes, desde clases deportivas hasta talleres culturales.
+              Nuestro objetivo es fomentar un ambiente inclusivo donde todos
+              puedan prosperar y sentirse parte de una gran familia.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/placeholder.jpg"
+              class="img-fluid rounded"
+              alt="Historia de Barrio San Rafael"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Lo que dicen nuestros residentes</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Vivir en Barrio San Rafael ha sido una experiencia
+                  maravillosa. La comunidad es unida y siempre hay actividades
+                  interesantes."
+                </p>
+                <footer class="blockquote-footer">
+                  María Rodríguez, residente desde 2010
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Los servicios que ofrece el barrio son excelentes. Mis hijos
+                  disfrutan mucho las clases de fútbol y arte."
+                </p>
+                <footer class="blockquote-footer">
+                  Carlos Méndez, padre de familia
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  "Me encanta la seguridad y tranquilidad que se respira en
+                  Barrio San Rafael. Es el lugar perfecto para criar una
+                  familia."
+                </p>
+                <footer class="blockquote-footer">
+                  Ana Campos, nueva residente
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Contáctanos</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Enviar Mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mapa -->
+    <section id="mapa" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Nuestra Ubicación</h2>
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.747676367127!2d-84.12546!3d10.0236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9c1f0f8a625%3A0xb83ab7a845d1f7f5!2sConcepc%C3%ADn%2C%20San%20Rafael%2C%20Costa%20Rica!5e0!3m2!1sen!2s!4v1628000000000!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Barrio San Rafael</h5>
+            <p>Concepción de San Rafael de Heredia, Costa Rica</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Contacto</h5>
+            <p>Email: info@barriosanrafael.cr</p>
+            <p>Teléfono: +506 2222-3333</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Síguenos</h5>
+            <a href="#" class="text-white me-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-2"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" class="text-white me-2"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

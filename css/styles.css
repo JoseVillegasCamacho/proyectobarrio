@@ -1,0 +1,9 @@
+/* Estilos personalizados */
+.hero-section {
+  background-image: url("../img/placeholder.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+/* Puedes agregar más estilos personalizados aquí si es necesario */
